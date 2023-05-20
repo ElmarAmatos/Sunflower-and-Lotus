@@ -27,7 +27,7 @@ def main():
         return prediction
 
     model = load_model()
-    class_names = ["Sunflower", "Lotus"]
+    class_names = ["Lotus", "Sunflower"]
     
 
     file = st.file_uploader("Choose a Sunflower or Lotus picture from your computer", type=["jpg", "png", "jpeg"])
